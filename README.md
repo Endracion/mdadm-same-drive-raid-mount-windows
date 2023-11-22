@@ -15,4 +15,10 @@ Setup:
 
 Get yourself a linux machine or a live USB distrubution; I used Kali KDE through Ventoy with the persistence plugin, so I could keep what I install on it.
 
-Once launched, 
+Once launched, go agead an open a terminal and install mdadm with the following commands : `sudo apt-get update -y && sudo apt-get install -y mdadm`
+
+Next, let's find what device your hard drive by running `bklst`
+
+In my case, the drive was **/dev/sdb**
+
+Next let's prepare the drive with fdisk by running `fdisk /dev/sdb`
