@@ -23,7 +23,7 @@ In my case, the drive was **/dev/sdb**
 
 Next let's prepare the drive with fdisk by running `fdisk /dev/sdb`
 
-Here we will run g to create a GPT partition, then n for the first partition, n for the second partition and w to apply and save the changes.
+Here we will enter `g` to create a GPT partition, then `n` for the first partition, `n` again for the second partition and `w` to apply and save the changes.
 
 Now the obvious question is, well how do I partition this in half? Easy, some big brained individual already thought of [that](https://www.reddit.com/r/linuxadmin/comments/5in11h/is_there_a_way_to_calculate_half_a_disk_space_in/).
 Run this command: `echo $(( $(sudo blockdev --getsize /dev/sdb) / 2))` where sdb is your drive.
