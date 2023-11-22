@@ -53,6 +53,7 @@ Once that's done, you can either pop in your disk into a SATA bay, or test it by
 ![mmc_2023-11-21_21-23-53](https://github.com/Endracion/mdadm-raid-mount-windows/assets/12702990/42c15e73-5924-4614-80b4-e7e2ff5bee44)
 
 You can also confirm that the partitions look good in your disk management, but note that they will not appear like other partitions and you cannot interact with them.
+
 ![mmc_2023-11-21_21-23-45](https://github.com/Endracion/mdadm-raid-mount-windows/assets/12702990/fd43d962-3d77-4cc6-afe2-ed2344c4d3c4)
 
 That's it! Enjoy your not quite double performance on your dual actuator drive, under Windows as well.
