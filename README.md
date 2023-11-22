@@ -19,7 +19,7 @@ Get yourself a linux machine or a live USB distribution; I used Kali KDE through
 
 Once launched, go ahead an open a terminal and install mdadm with the following commands : `sudo apt-get update -y && sudo apt-get install -y mdadm`
 
-Next, let's find what device your hard drive by running `lsblk`
+Next, let's find which device your hard drive is listed as by running `lsblk`
 
 In my case, the drive was **/dev/sdb**
 
