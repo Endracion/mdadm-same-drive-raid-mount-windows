@@ -39,7 +39,7 @@ If everything looks good, run the following commands to setup raid 0 across your
 
 You can then follow that up with `cat /proc/mdstat` to confirm that it was created successfully. It should show you something like `md0 : active raid0 sdb2[1] sdb1[0]`
 
-If everything looks good here as well, we proceed with formatting our new raid with the file system of your choice. For simplicity's sake, since this is going into a Windows machine, I'll be using NTFS. Run the following: `sudo mkntfs -Q /dev/md0` (not that I used Q for quick, since I already surface tested my drive).
+If everything looks good here as well, we proceed with formatting our new raid with the file system of your choice. For simplicity's sake, since this is going into a Windows machine, I'll be using NTFS. Run the following: `sudo mkntfs -Q /dev/md0` (note that I used Q for quick, since I already surface tested my drive).
 
 Congrats! That was the hardest part.
 
