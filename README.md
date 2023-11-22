@@ -50,6 +50,7 @@ Now unmount/shutdown your linux machine or live USB, and proceed to your Windows
 This part is pretty simple, go to https://github.com/maharmstone/winmd, download the release and follow the installation steps, it's literally just right clicking the .inf and agreeing to the install.
 
 Once that's done, you can either pop in your disk into a SATA bay, or test it by using an external enclosure first, but either way, what you want to see is the following in your device manager, both a WinMD controller and a WinMD volume when the drive is connected.
+
 ![mmc_2023-11-21_21-23-53](https://github.com/Endracion/mdadm-raid-mount-windows/assets/12702990/42c15e73-5924-4614-80b4-e7e2ff5bee44)
 
 You can also confirm that the partitions look good in your disk management, but note that they will not appear like other partitions and you cannot interact with them.
