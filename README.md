@@ -9,9 +9,7 @@ In reality, you can split the drive in half and get the same performance out of 
 
 Here's are the before and after Crystal Disk Mark tests:
 
-![DiskMark64_2023-11-18_13-03-11](https://github.com/Endracion/mdadm-raid-mount-windows/assets/12702990/e4adbec5-0d9f-4b97-ad23-52cf8f011446)
-
-![DiskMark32_2023-11-22_00-04-41](https://github.com/Endracion/mdadm-raid-mount-windows/assets/12702990/1506a2ca-18f6-4481-8d35-a41aea967f05)
+![DiskMark64_2023-11-18_13-03-11](https://github.com/Endracion/mdadm-raid-mount-windows/assets/12702990/e4adbec5-0d9f-4b97-ad23-52cf8f011446)  ![DiskMark32_2023-11-22_00-04-41](https://github.com/Endracion/mdadm-raid-mount-windows/assets/12702990/1506a2ca-18f6-4481-8d35-a41aea967f05)
 
 # Preparing your drive
 
