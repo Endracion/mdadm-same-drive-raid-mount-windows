@@ -1,6 +1,8 @@
 **Preface**: Why even write this guide?
 
-Simple really, I wanted to extract more performance out of the dual actuator hard drive I got, but unlike its SAS counterpart, the Exos Mach 2 SATA does not expose 2 LUNs to the system, it appears as a single drive; bummer.
+I want to RAID 2 partitions on the same drive. Most people would immediately think, well that's plain stupid - yes, BUT not if you have a dual actuator drive, like the Seagate Exos Mach 2!
+
+I wanted to extract more performance out of the dual actuator hard drive I got, but unlike its SAS counterpart, the Exos Mach 2 SATA does not expose 2 LUNs to the system, it appears as a single drive; bummer, except...
 In reality, you can split the drive in half and get the same performance out of each side, in parellel, which means raiding them should increase performance. But raid as it normally stands requires disks, not partitions, so I had to look into alternative solutions, and finally stumbled upon and successfully tested mdadm coupled with [WinMD](https://github.com/maharmstone/winmd).
 
 **Note**: I would highly suggest surface testing your drive before starting on this adventure, because you don't want to wake up to data loss after setting this up - and you are only one responsible for your data and actions, I can't be held liable for anything, do this at your own risk.
