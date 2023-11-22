@@ -1,5 +1,3 @@
-# mdadm-raid-mount-windows
-
 **Preface**: Why even write this guide?
 
 Simple really, I wanted to extract more performance out of the dual actuator hard drive I got, but unlike its SAS counterpart, the Exos Mach 2 SATA does not expose 2 LUNs to the system, it appears as a single drive; bummer.
