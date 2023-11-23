@@ -15,7 +15,7 @@ Here's are the before and after Crystal Disk Mark tests:
 
 Get yourself a linux machine or a live USB distribution; I used Kali KDE through Ventoy with the persistence plugin, so I could keep what I install on it.
 
-Once launched, go ahead an open a terminal and install mdadm with the following commands : `sudo apt-get update -y && sudo apt-get install -y mdadm`
+Once launched, go ahead and open a terminal and install mdadm with the following commands : `sudo apt-get update -y && sudo apt-get install -y mdadm`
 
 Next, let's find which device your hard drive is listed as by running `lsblk`
 
